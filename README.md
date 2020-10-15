@@ -217,3 +217,12 @@ We'll create final output for entire wizard. We'll need to implement this via #1
   ]
 }
 ```
+
+## Task 3 Build Multistep Form
+- [[1](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/1)] Create API or Mock for Fetching Form JSON
+- [[2](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/2)] Setup Router
+- [[3](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/3)] Implement Components
+- [[4](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/4)] Form States with Formik
+- [[5](https://github.com/brandonquintanaconsulting/boilerplate-application-form/issues/5)] Submit Data to Backend
+
+A number of these things can be done in parallel since we've spec'd the initial JSON object.  We can create the API as one lane, the router can be done separately, the components can use the mock and layout UI components, form states would have to happen after UI is done.  Submitting to the backend can be done at any time also since we know the state object we can find parameters to submit to the backend.
